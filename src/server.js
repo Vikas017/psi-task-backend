@@ -2,7 +2,6 @@ require("dotenv").config();
 const mongoose = require("mongoose");
 const app = require("./app");
 const PORT = process.env.PORT || 5000;
-import mongoose from "mongoose";
 
 if (!process.env.MONGO_URI) {
   console.error("❌ MONGO_URI missing");
